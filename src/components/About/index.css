@@ -1,0 +1,70 @@
+.about-bg-container {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 100vh;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.about-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 64px;
+  color: #f8fafc;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.about-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #e2e8f0;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.about-ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 64px;
+    color: #f8fafc;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .about-para {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #e2e8f0;
+    margin: 0px;
+    margin-left: 100px;
+  }
+  .about-ul {
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.loader {
+  align-self: center;
+  justify-content: center;
+  margin-top: 300px;
+}

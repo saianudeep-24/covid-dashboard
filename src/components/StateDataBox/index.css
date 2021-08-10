@@ -1,0 +1,51 @@
+.each-state {
+  padding: 0px;
+}
+.state-name {
+  color: #f1f5f9;
+}
+.state-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f1f5f9;
+  margin-left: 30px;
+  width: 250px;
+}
+.p-column2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  width: 150px;
+  margin-left: 20px;
+}
+.p-column-first2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  width: 150px;
+  margin-left: 20px;
+}
+.Confirmed {
+  color: #ff073a;
+}
+.Active {
+  color: #007bff;
+}
+.Recovered {
+  color: #28a745;
+}
+.Deceased {
+  color: #6c757d;
+}
+.Population {
+  color: #94a3b8;
+}
